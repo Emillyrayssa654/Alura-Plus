@@ -3,13 +3,11 @@
     --preto-fundo: #00030C;
     --azul-botão: #167bF7;
     --cinza-letrinha: #C0C0C0;
-    --fonte-principal:'Inter';
 }
 
 body{
     background-color: var(--preto-fundo);
     color: var(--branco-principal);
-    font-family: ;
 }
 
 *{
@@ -17,7 +15,7 @@ body{
     padding: 0;
 }
 .principal{
-    background-image: url(Background.png);
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -31,10 +29,5 @@ body{
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
    
-}
-.botão_secundario{
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
 }
